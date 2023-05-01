@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+body {
+  background-color: #dbdbdb;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  background-color: #dbdbdb;
+  margin-left: 7vw;
+  margin-right: 8vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 83vw;
+  height: 90vh;
+}
+
+.main div {
+  border-radius: 20px;
+}
+
+.left {
+  top: 0;
+  left: 0;
+  width: 21vw;
+  height: 90vh;
+  background-color: #f2f2f2;
+}
+.left:hover {
+  width: 21.5vw;
+  height: 90.5vh;
+}
+
+.center,
+.top,
+.right_top,
+.right_bottom {
+  background-color: #ffffff;
+}
+.left:hover,
+.center:hover,
+.top:hover,
+.right_top:hover,
+.right_bottom:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.top {
+  top: 0;
+  left: 23vw;
+  width: 63vw;
+  height: 10vh;
+}
+
+.center {
+  top: 13vh;
+  left: 23vw;
+  width: 30vw;
+  height: 77vh;
+}
+.right_top {
+  top: 13vh;
+  left: 55vw;
+  width: 31vw;
+  height: 40vh;
+}
+.right_bottom {
+  top: 56vh;
+  left: 55vw;
+  width: 31vw;
+  height: 34vh;
+}
