@@ -79,11 +79,12 @@ div h6 {
 .stores {
   display: flex;
   margin-left: 7%;
+  justify-content: s;
+  align-items: center;
+  height: 45px;
 }
 .stores a {
   font-size: 10px;
-  justify-content: center;
-  align-items: center;
   flex: 7;
   color: #ffffff;
 }
@@ -109,14 +110,19 @@ span {
   display: flex;
   margin-top: 0;
   margin-left: 15%;
-  gap: 30px;
+  gap: 10px;
 }
 .socials a {
   font-size: 30px;
 }
+.socials button {
+  border-radius: 50%;
+  background: #ffffff;
+}
 .bottom {
   display: flex;
   justify-content: center;
+  margin-top: 0;
 }
 .bottom div {
   margin-top: 0;
