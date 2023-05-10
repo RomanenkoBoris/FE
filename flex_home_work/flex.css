@@ -57,7 +57,7 @@ a {
 }
 .right {
   flex: 7;
-  justify-content: end;
+ 
 }
 div h1 {
   margin-left: 15%;
