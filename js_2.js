@@ -63,3 +63,13 @@ const users = [
  
  console.log(users[1][1]);
 
+ function find_negative (array){
+    let negativ_array = [];
+    for (let i = 0; i < array.length; i++){
+        if (array[i] < 0){
+            negativ_array.push(array [i]);
+        }
+    }
+    return negativ_array;
+ }
+
