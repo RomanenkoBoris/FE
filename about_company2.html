@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About company</title>
+
+    <style>
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        aside {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 250px;
+            background: gold;
+            transform: translateX(-250px);
+            transition: 1s;
+        }
+
+        aside.is-open {
+            transform: translateX(0);
+        }
+    </style>
+
+    <script>
+        function toggle_menu(){
+            const sidebar = document.querySelector('aside');
+            sidebar.classList.toggle('is-open');
+        }
+    </script>
+</head>
+<body>
+    <aside></aside>
+    <div class="row">
+    <h1>
+        About company
+    </h1>
+
+    <button onclick="toggle_menu()">Menu</button>
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quisquam doloribus eum. Doloremque voluptate facere mollitia ut corporis consectetur, ratione totam facilis fugiat tenetur repellat maiores quia. Inventore quidem ipsam, rem doloremque asperiores vel obcaecati tempore eos similique ratione fuga totam eligendi eius quis aliquam veniam voluptates necessitatibus laborum excepturi? Incidunt deleniti iste cum error quibusdam omnis, ab deserunt hic, beatae cumque culpa explicabo ut, accusantium minus! Provident eius molestias odio a voluptates tenetur alias ut similique iusto pariatur, molestiae fugit officia aperiam recusandae. Molestiae libero optio harum est asperiores aliquid voluptatum fugiat vel sint maiores! Totam expedita placeat quo vitae, ea omnis adipisci magnam optio ad perspiciatis minima eum sint qui commodi eligendi blanditiis voluptates fugiat corrupti deleniti quas quia. Dolor accusantium a assumenda minima voluptate nobis corrupti dicta fugiat, eum incidunt placeat aut veritatis nam esse? Ullam magnam eligendi commodi quibusdam expedita quas quia nulla rem adipisci eum voluptate illo repellat quaerat iusto optio excepturi iure molestias voluptatem modi, tenetur facilis aspernatur! Harum, mollitia ad enim fugiat atque tempora possimus officiis, pariatur facilis eaque reprehenderit! Nam doloribus vero culpa, recusandae nobis facilis officia aspernatur! Nulla iusto minima necessitatibus optio doloremque? Culpa eveniet dignissimos tempore voluptate adipisci cum sint repudiandae? Commodi repellendus, ut maxime recusandae rerum dolore sapiente eum modi illo fugit blanditiis suscipit ea laborum laboriosam deleniti eligendi eos odio? Assumenda dolores accusamus molestiae asperiores reprehenderit nam inventore deleniti cumque eligendi rerum atque aut magnam at iste natus earum dolor, autem repellendus quia, cum hic quasi? Molestias, eum.
+    </p>
+</body>
+</html>
