@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function sum_number(num1, num2, callback){
+            const result = num1 + num2;
+            callback(`The addition is ready. The resalt is ${result}`);
+        }
+
+        function show_result(result){
+            console.log(result);
+        }
+        sum_number(2, 5, show_result);
+    </script>
+</body>
+</html>
